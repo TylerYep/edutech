@@ -51,6 +51,26 @@ header {
     margin-right: auto;
 }
 
+.inline {
+    display: inline-block;
+    padding-left: 2.5%;
+    padding-bottom: 10px;
+}
+
+h1 {
+    display: inline-block;
+    padding-left: 2.5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.stars {
+    position: relative;
+    left: 67%;
+    bottom: 100px;
+    z-index: 3;
+}
+
 /* ------------------------------------------------------------------ *\
     About Page
 \* ------------------------------------------------------------------ */
