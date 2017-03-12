@@ -64,6 +64,12 @@ h1 {
     margin-bottom: 0px;
 }
 
+h3 {
+    padding-left: 70%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .stars {
     position: relative;
     left: 67%;
