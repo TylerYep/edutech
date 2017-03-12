@@ -65,7 +65,7 @@
                 <!-- /.container-fluid -->
             </nav>
         </header>
-        <h1>Choose Your Project:</h1>
+        <h1>Customize the lesson plan:</h1>
         <div class="inline">
             <div class="dropdown">
                 <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">State
@@ -102,24 +102,22 @@
                 </ul>
             </div>
         </div>
-        <div class="standards">
-            <img class="project" src="img/africa-project.png" alt="africa"/>
-            <a href="customize.html"><img class="stars" src="img/3star-green.png" alt="arrow"/></a>
+        <hr>
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img id="drag1" src="../img/africa-visual-text.png" draggable="true" ondragstart="drag(event)" width="100%" height="25%">
+            <img id="drag2" src="../img/meso-visual-text.png" draggable="true" ondragstart="drag(event)" width="100%" height="25%">
         </div>
-        <div class="standards">
-            <img class="project" src="img/taj-mahal-project.png" alt="africa"/>
-            <a href="customize.html"><img class="stars" src="img/2star-white.png" alt="arrow"/></a>
-        </div>
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.css">
-        <link rel="stylesheet" href="css/projects.css">
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <link rel="stylesheet" href="../css/animate.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-theme.css">
+        <link rel="stylesheet" href="../css/projects.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Latest compiled and minified JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/background.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/background.js"></script>
     </body>
 
 </html>
