@@ -73,7 +73,30 @@ header {
     font-size: 2vw;
     top: 25%;
     padding-left: 12%;
-    padding-right: 40%;
+    z-index: 4;
+}
+
+.about ul {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    position: relative;
+    font-size: 2em;
+    font-size: 2vw;
+    top: 25%;
+    padding-left: 12%;
+    padding-right: 6%;
+    z-index: 4;
+}
+
+.about ul li {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    position: relative;
+    font-size: 2em;
+    font-size: 2vw;
+    top: 25%;
+    padding-left: 5%;
+    padding-right: 6%;
     z-index: 4;
 }
 
