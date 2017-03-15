@@ -33,6 +33,36 @@ header {
     height: 7%;
 }
 
+.hiddenarrow0 {
+    position: relative;
+    left: 64%;
+    bottom: 360px;
+    z-index: 3;
+    width: 7%;
+    height: 7%;
+    opacity: 0.0;
+}
+
+.hiddenarrow1 {
+    position: relative;
+    left: 50%;
+    bottom: 500px;
+    z-index: 3;
+    width: 7%;
+    height: 7%;
+    opacity: 0.0;
+}
+
+.hiddenarrow2 {
+    position: relative;
+    left: 28%;
+    bottom: 200px;
+    z-index: 3;
+    width: 7%;
+    height: 7%;
+    opacity: 0.0;
+}
+
 .home .background {
     display: block;
     margin-left: auto;
@@ -64,6 +94,7 @@ header {
 
 h1 {
     display: inline-block;
+    padding-top: 2.5%;
     padding-left: 2.5%;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -77,6 +108,10 @@ h3 {
     padding-left: 70%;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+h6 {
+    padding-left: 2.5%;
 }
 
 p {
@@ -97,4 +132,22 @@ p {
     margin: 1%;
     padding: 1%;
     border: 1px solid black;
+}
+
+.reviews {
+    padding-left: 5%;
+}
+
+.projecthome {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/transparent_temple.png);
+    background-size: cover;
+}
+
+.projecthome .rating {
+    padding-left: 5%;
+    width: 15%;
+    height: 15%;
+    transform: scaleX(-1);
 }
