@@ -79,6 +79,7 @@ h3 {
 
 #div1, #div2 {
     float: left;
+    overflow: scroll;
     width: 48%;
     height: 80%;
     margin: 1%;

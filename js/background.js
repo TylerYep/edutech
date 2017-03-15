@@ -18,6 +18,14 @@ function drop(ev) {
         break;
     case "drag4":
         break;
+    case "drag5":
+        break;
+    case "drag6":
+        break;
+    case "drag7":
+        break;
+    case "drag8":
+        break;
     default:
         ev.target.appendChild(document.getElementById(data));
     }
