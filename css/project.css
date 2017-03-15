@@ -110,6 +110,11 @@ h3 {
     margin-bottom: 0px;
 }
 
+h5 {
+    padding-left: 2.5%;
+    padding-top: 0;
+}
+
 h6 {
     padding-left: 2.5%;
 }
@@ -139,10 +144,28 @@ p {
 }
 
 .projecthome {
-    height: 100%;
+    height: 150%;
     width: 100%;
     background-image: url(../img/transparent_temple.png);
     background-size: cover;
+}
+
+.projecthome p {
+    padding-bottom: 2.5%;
+}
+
+.projecthome img {
+    height: 30%;
+    padding-left: 5%;
+    display: inline;
+}
+
+.projecthome .text {
+    width: 40%;
+    display: inline-block;
+}
+
+.projecthome .text p {
 }
 
 .projecthome .rating {
