@@ -1,0 +1,77 @@
+/* ------------------------------------------------------------------ *\
+    Overall HTML
+\* ------------------------------------------------------------------ */
+
+html, body {
+    height: 100%;
+    font-size: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* ------------------------------------------------------------------ *\
+    Header
+\* ------------------------------------------------------------------ */
+
+header {
+    position: relative;
+    z-index: 10;
+}
+
+/* ------------------------------------------------------------------ *\
+    Home Page
+\* ------------------------------------------------------------------ */
+
+.arrow {
+    position: relative;
+    left: 90%;
+    bottom: 100px;
+    z-index: 3;
+    width: 7%;
+    height: 7%;
+}
+
+.home .background {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+}
+
+.home .progress {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    display: inline-block;
+    padding-left: 2.5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    padding-left: 70%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.stars {
+    position: relative;
+    left: 67%;
+    bottom: 100px;
+    z-index: 3;
+}
+
+#div1, #div2 {
+    float: left;
+    width: 48%;
+    height: 80%;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid black;
+}
